@@ -1,0 +1,10 @@
+server {
+  listen 80 default_server;
+  listen [::]:80 default_server;
+  root /var/www/dj-booth.live-stream.int.s-cloud.net;
+  index live.html;
+  server_name dj-booth.live-stream.int.s-cloud.net www.dj-booth.live-stream.int.s-cloud.net;
+  location / {
+    try_files $uri $uri/ =404;
+  }
+}

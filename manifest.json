@@ -1,0 +1,12 @@
+{
+    "name": "live-stream",
+    "description": "Internal live streaming server",
+    "owner": "eva",
+    "contact_email": "eva.fineberg@soundcloud.com",
+    "contact_channel": "eva.fineberg",
+    "status": "production",
+    "type": "internal_service",
+    "runtime": "base",
+    "data_sensitivity": ["no_user_data"],
+    "dependencies": []
+}

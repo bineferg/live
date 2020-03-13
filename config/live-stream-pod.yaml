@@ -1,0 +1,16 @@
+containers:
+- name: {{ component }}
+  image: docker.dev.s-cloud.net/live-stream:stable
+  ports:
+  - name: rtmp
+    protocol: TCP
+    containerPort: 1935
+  - name: http
+    protocol: TCP
+    containerPort: 8080
+  resources:
+    requests:
+      memory: 512Mi
+      cpu: 0.5
+    limits:
+      memory: 768Mi
