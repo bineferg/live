@@ -1,11 +1,8 @@
 # RTMP Live Stream Server
 
-An SAT project of @bineferg and @oberkowitz, this is a small live-streaming server intended for internal use at the DJ booth.  
+Testing 
 
-[Watch Live](http://dj-booth.int.s-cloud.net/listen/live.html)
 
-## DJ-Booth
-Currently the only component, live streams video of the dj booth in the cafe iff you are on the SoundCloud network.
 
 ## To start streaming your set
 
